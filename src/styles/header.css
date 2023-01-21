@@ -1,0 +1,33 @@
+.header__section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.161);
+      padding: 10px;
+      height: var(--headerH);
+}
+
+.header__section svg {
+      font-size: 1.2em !important;
+      color: rgba(0, 0, 0, 0.769);
+      fill: currentColor;
+}
+
+.tinder__logo {
+      width: 30px;
+      height: 30px;
+      color: red !important;
+      fill: currentColor;
+}
+
+.link {
+      display: grid;
+      place-items: center;
+}
+
+.header__backLogo {
+      width: 30px;
+      height: 30px;
+      color: rgb(0, 0, 0) !important;
+      fill: currentColor;
+}

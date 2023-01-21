@@ -1,0 +1,36 @@
+.fetchinfo__Section {
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+}
+
+.fetchinfo__Section>h1 {
+      font-size: 2em;
+      text-align: center;
+      margin: 10px 0;
+      font-weight: 600;
+      text-transform: capitalize;
+}
+
+.fetchinfo__form {
+      border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+}
+
+.fetchinfo__inputs {
+      width: 800px !important;
+      margin: 10px 0 !important;
+}
+
+.fetchinfo__buttons {
+      margin-top: 50px !important;
+}

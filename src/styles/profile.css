@@ -1,0 +1,146 @@
+.profile__Section {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      padding: 0 100px;
+}
+
+.profile__body {
+      width: 100%;
+      height: calc(100vh - var(--headerH));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 10px 0 0 0;
+}
+
+.profile__userInfo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+}
+
+.profile__userInfo>.profile__svg {
+      width: 150px !important;
+      height: 150px !important;
+      margin-right: 15px;
+
+}
+
+.profile__userInfo>span {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 100%;
+      padding: 10px 0;
+}
+
+.profile__userInfo>span>h1 {
+      font-size: 1.73em;
+      font-weight: 700;
+      font-family: var(--font2);
+      color: rgba(0, 0, 0, .88);
+      text-decoration: underline;
+}
+
+.profile__userInfo>span>h2 {
+      font-size: 1.3em;
+      font-weight: 600;
+      color: rgba(0, 0, 0, .88);
+}
+
+.profile__userInfo>span>h3 {
+      font-size: 1.3em;
+      font-weight: 600;
+      color: rgba(0, 0, 0, .88);
+}
+
+.profile__pageInfo {
+      width: 100%;
+      padding: 0 70px;
+      margin-top: 50px;
+}
+
+.profile__pageInfo>h1 {
+      font-size: 2em;
+      font-weight: 500;
+      background-color: #df472cc5;
+      width: 300px;
+      padding: 10px;
+      border-radius: 14px;
+      cursor: pointer;
+      margin: 10px auto;
+      text-align: center;
+}
+
+.profile__pageInfo>span {
+      font-size: 1.3em;
+      font-weight: 400;
+      color: rgba(0, 0, 0, .8);
+      font-family: var(--font1);
+}
+
+@media (max-width: 705px) {
+      .profile__Section {
+            padding: 0;
+      }
+
+      .profile__body {
+            padding: 0;
+      }
+
+      .profile__userInfo {
+            flex-direction: column;
+      }
+
+      .profile__userInfo>.profile__svg {
+            width: 100px !important;
+            height: 100px !important;
+            margin: 0;
+      }
+
+      .profile__userInfo>span {
+            align-items: center;
+            justify-content: space-around;
+            height: 110px;
+            padding: 0;
+            margin-top: 10px;
+      }
+
+      .profile__userInfo>span>h1 {
+            font-size: 1.53em;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 1);
+      }
+
+      .profile__userInfo>span>h2 {
+            color: rgba(0, 0, 0, 1);
+      }
+
+      .profile__userInfo>span>h3 {
+            color: rgba(0, 0, 0, 1);
+      }
+
+      .profile__pageInfo {
+            padding: 0 10px;
+            margin-top: 0px;
+      }
+
+
+      .profile__pageInfo>h1 {
+            font-size: 1.32em;
+            margin: 10px auto;
+            border-radius: 10px;
+            width: 200px;
+      }
+
+      .profile__pageInfo>span {
+            font-size: .95em;
+            font-weight: 400;
+      }
+}

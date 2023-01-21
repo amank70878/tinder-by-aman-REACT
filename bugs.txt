@@ -1,0 +1,51 @@
+auth 👍
+login page 👍
+fetching users's posted posts 👍
+as the login page loads, remove timder-id from localstorage,so that if the user come then user has to signin 👍
+if the person goes directly to fetchinfo then user should redirect to login page 👍
+the fetchuser page re-renders on every inputs fix this 👍
+displaying toast on every navigate the page
+pop up a screen for user info 
+logout functionality in the profile header page
+add users's posts in the db of user 
+matching algorithm 
+adding left,right swipes in the user db
+chats page
+dms page
+gets in dm, when matched
+
+
+
+occupation: "none",
+age: "not Found",
+url:"https:reviews.123rf.com/images/urfandadashov/urfandadashov1806/urfandadashov180601827/150417827-photo-not-available-vector-icon-isolated-on-transparent-background-photo-not-available-logo-concept.jpg",
+
+const dbLocal = [
+  {
+    url: "./assets/delhigrp.jpg",
+    job: "Teachers",
+    name: "delhi group",
+  },
+  {
+    job: "student",
+    name: "Abhishek Goshwami",
+    url: "./assets/abhishek.jpg",
+  },
+  {
+    job: "Medical Rep.",
+    name: "Ankit Kumar",
+    url: "./assets/ankit.jpg",
+  },
+  { job: "student", name: "Shivam Pal", url: "./assets/shivam.webp" },
+  {
+    job: "Student",
+    name: "Vivek Pandey",
+    url: "./assets/pandey.webp",
+  },
+  {
+    job: "student",
+    name: "Aditya kajley",
+    url: "./assets/aditya.jpg",
+  },
+  { job: "student", name: "Aman Kumar", url: "./assets/me.jpg" },
+];
